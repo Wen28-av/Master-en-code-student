@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#main-container{
+    background-color: rgba(86, 86, 98, 0.952);
+    height: 100vh;/*Esta medida representa el alto de la pantalla del usuario*/
+    width: 100vw;/*Esta medida representa el ancho de la pantalla del usuario*/
+    display: flex;/*habilito a las propiedades de disposicion*/
+    flex-direction: column;/*direccion de sus hijos*/
+    justify-content: space-between;/*disposicion en el contenedor*/
+}
+/*              HEADER STYLES             */
+header{
+    background-color: chocolate;
+    height:10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;/*el eje es el principal*/
+    align-items: center;/*eje y es el cross*/
+}
+
+#logo-container{
+    background-color:aliceblue;
+    height: 60px;
+    width: 150px;
+}
+
+#logora{
+    background-color: chocolate;
+    height: 100%;
+    width: 100%;
+}
+
+#options-container{
+    background-color: rgb(228, 126, 52);
+    padding: 4px;/*margen interno*/
+    display: flex;
+    flex-direction: row;/*para que aparezca en fila*/
+    gap: 15px;/*para poner espacio entre botoncitos*/
+}
+
+#profile-container{
+    background-color: aliceblue;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#profile-image{
+    height: 50px;
+    width: 50px;
+}
+
+/*           MAIN STYLES        */
+main{
+    background-color: rgb(153, 96, 207);
+    padding: 15px;/*espacio entre cuadrados*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    height: 60%;
+}
+
+/*          FOOTER STYLES             */
+footer{
+    background-color: rgb(74, 167, 74);
+    height: 10%;
+}
